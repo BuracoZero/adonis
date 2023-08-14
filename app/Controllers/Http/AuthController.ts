@@ -19,7 +19,7 @@ export default class AuthController {
             const user = await User.findByOrFail("email", email)
             return {token, user}
         }catch(error){
-            response.status(401).send("Login ou senha incorretos!!!")
+             response.status(401).send("Login ou senha incorretos!!!")
         }
     }
 }
