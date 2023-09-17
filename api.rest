@@ -1,5 +1,5 @@
 ### Registro do usuário
-POST https://adonis-xop0.onrender.com/register HTTP/1.1
+POST https://adonis-ydky.onrender.com/register HTTP/1.1
 Content-Type:application/json
 
 {
@@ -9,7 +9,7 @@ Content-Type:application/json
 }
 
 ### Registro do usuário
-POST https://adonis-xop0.onrender.com/login HTTP/1.1
+POST https://adonis-ydky.onrender.com/login HTTP/1.1
 Content-Type:application/json
 
 {
