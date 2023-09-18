@@ -10,7 +10,7 @@ export default class User extends BaseModel {
   public name:string
 
   @column()
-  public email: string
+  public cpf: string
 
   @column()
   public token: string

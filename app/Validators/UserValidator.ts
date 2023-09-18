@@ -27,10 +27,9 @@ export default class UserValidator {
     name: schema.string({}, [
       rules.required()
     ]),
-    email: schema.string({}, [
+    cpf: schema.string({}, [
       rules.required(),
-      rules.email(),
-      rules.unique({ table: 'users', column: 'email' }),
+      rules.unique({ table: 'users', column: 'cpf' }),
     ]),
     password: schema.string({}, [
       rules.required(),

@@ -13,10 +13,10 @@ export default class AuthController {
     public async login({request, auth, response}:HttpContextContract){
         try{
             const{email, password} = request.all()
-            const token = await auth.use('api').attempt(email, password, {
+            const token = await auth.use('api').attempt(cpf, password, {
                 expiresIn:'1day'
             })
-            const user = await User.findByOrFail("email", email)
+            const user = await User.findByOrFail("cpf", cpf)
             return {token, user}
         }catch(error){
              response.status(401).send("Login ou senha incorretos!!!")
