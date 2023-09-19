@@ -4,7 +4,7 @@ Content-Type:application/json
 
 {
     "name": "Buraco",
-    "email": "buraco@gmail.com",
+    "cpf": "16487624399",
     "password": "1234"
 }
 
@@ -13,6 +13,6 @@ POST https://adonis-ydky.onrender.com/login HTTP/1.1
 Content-Type:application/json
 
 {
-    "email": "buraco@gmail.com",
+    "cpf": "16487624399",
     "password": "1234"
 }

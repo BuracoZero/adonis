@@ -50,7 +50,7 @@ export default class UserValidator {
    */
   public messages: CustomMessages = {
     required:"O {{field}} é obrigatório!!!",
-    'email.unique': "E-mail já cadastrado",
+    'cpf.unique': "CPF já cadastrado",
     'minLength': "Senha muita pequena!!!"
   }
 }
