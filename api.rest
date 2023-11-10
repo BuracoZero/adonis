@@ -3,9 +3,9 @@ POST https://adonis-ydky.onrender.com/register HTTP/1.1
 Content-Type:application/json
 
 {
-    "name": "Miguel",
-    "cpf": "80144422245",
-    "password": "1234"
+    "name": "Maria",
+    "cpf": "02071148622",
+    "password": "12345"
 }
 
 ### Login do usuário
@@ -13,6 +13,6 @@ POST https://adonis-ydky.onrender.com/login HTTP/1.1
 Content-Type:application/json
 
 {
-    "cpf": "80144422245",
-    "password": "1234"
+    "cpf": "02071148622",
+    "password": "12345"
 }
