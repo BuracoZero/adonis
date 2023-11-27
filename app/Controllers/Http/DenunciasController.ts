@@ -17,7 +17,7 @@ export default class DenunciasController {
     const denunciaId = params.id;
 
     // Obtém os novos dados da denúncia a partir do corpo da solicitação HTTP
-    const data = request.only(['CEP', 'Endereco', 'Descricao']);
+    const data = request.only(['cep', 'Endereco', 'Descricao']);
 
     // Busca a denúncia no banco de dados
     const denuncia = await Denuncia.findOrFail(denunciaId);

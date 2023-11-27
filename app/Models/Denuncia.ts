@@ -6,7 +6,7 @@ export default class Denuncia extends BaseModel {
   public id: number
 
   @column()
-  public CEP: string
+  public cep: string
 
   @column()
   public Endereco: string
